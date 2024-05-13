@@ -2,8 +2,8 @@ body{
     background-color:grey;
 }
 .content{
-   float:left
-   width:69%
+   float:left;
+   width:69%;
    padding: 15px;
 }
 button{
