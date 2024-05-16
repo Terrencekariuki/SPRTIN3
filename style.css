@@ -8,7 +8,7 @@ body{
    padding: 15px;
 }
 button{
-    width: 300px;
+    width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -24,3 +24,9 @@ button{
     height:100vh;
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url(images/building.jpeg );
 }
+.navbar {
+    border: 1px solid black;
+    padding-top: 50px;
+    
+    
+  }
