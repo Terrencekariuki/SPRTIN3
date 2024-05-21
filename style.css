@@ -1,7 +1,6 @@
 body{
     background-color:grey;
-    
-}
+  
 .content{
    float:left;
    width:69%;
@@ -33,5 +32,6 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-  }
+    background-color: chocolate;
+}
+}
