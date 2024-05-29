@@ -20,9 +20,8 @@ button{
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url(images/building.jpeg );
 }
 .navbar {
-    border: 1px solid black;
- 
-    border-radius: 5px;
+   
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +32,7 @@ button{
 }
 ul{
     list-style:none;
-    background:#22438C;
+ 
 }
 ul li{
     display:inline-block;
@@ -42,20 +41,17 @@ ul li{
 ul li a{
     display:block;
     padding:20px 25px;
-    color:#FEE;
+    color:black;
     text-decoration:none;
     text-align:center;
-    font-size:20px;
+    font-size:30px;
 }
-ul li ul.dropdown li{
-    display:block;
+ul class.dropdown li{
+    display: block;
+
 }
 ul li ul.dropdown{
     width:100%;
-    background:#22438C;
-    position:absolute;
-    z-index:999;
-    display:none;
 
 }
 }
