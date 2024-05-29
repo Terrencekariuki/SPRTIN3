@@ -19,9 +19,8 @@ button{
   
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url(images/building.jpeg );
 }
-.navbar {
+.dropdown {
    
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
