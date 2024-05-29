@@ -19,15 +19,16 @@ button{
   
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url(images/building.jpeg );
 }
-.dropdown {
-   
+.dropdown a {
+   padding:10px 15px;
+   text-decoration: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(143, 141, 140);
-    padding:0;
-    margin:0;
-    font-family:monospace;
+    color:black;
+}
+.dropdown .content{
+    background-color: aliceblue;
+    position:absolute;
+    min-width:100px;
 }
 ul{
     list-style:none;
