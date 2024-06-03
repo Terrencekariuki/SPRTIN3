@@ -1,26 +1,25 @@
 body{
-    background-color:grey;
-  
-
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid grey;
-    background: slategray;
-    color: #221616;
-    cursor: pointer;
-}
-
+    background-color:rgb(252, 253, 253);
+    text-align: justify;
+    font-size: medium;
 }
 .banner{
     width:100%;
   
  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url(images/building.jpeg );
 }
+.dropdown{
+    display:inline-block;
+}
+.dropdown button{
+    background-color:rgb(54, 57, 61);
+    color:white;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+
+}
+
 .dropdown a {
    padding:10px 15px;
    text-decoration: none;
@@ -31,31 +30,15 @@ button{
     background-color: rgba(240, 248, 255, 0.995);
     position:absolute;
     min-width:100px;
-    box-shadow: 2px 2px 5px rgba(37, 9, 9, 0.719);
+    box-shadow: 2px 2px 5px rgba(65, 68, 76, 0.838);
 }
-}
-ul{
-    list-style:none;
- 
-}
-ul li{
-    display:inline-block;
-    position:relative;
-}
-ul li a{
+.dropdown:hover .content{
     display:block;
-    padding:20px 25px;
-    color:black;
-    text-decoration:none;
-    text-align:center;
-    font-size:30px;
-}
-ul class.dropdown li{
-    display: block;
 
 }
-ul li ul.dropdown{
-    width:100%;
-
+.dropdown:hover button{
+    background-color: hsl(0,0%,70%);
 }
+.dropdown a:hover{
+    background-color: hsl(0,0%,90%);
 }
