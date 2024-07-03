@@ -7,23 +7,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <?php 
+        include_once("dbconnect.php");
+if(isset($_POST["submit"])){
+    $phone =$_POST["phone"];
+    $name =$_POST["name"];
+    $residence = $_POST["residence"];
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+
+        $sql = "INSERT INTO `clients`(`phone`, `name`, `residence`, `email`,`Password`) 
+                        VALUES ('$phone','$name','$residence','$email','$password')";
+        
+        if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+        } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    }
+        $conn->close();
+    ?>
     <div class="container">
         <div class="form-container sign-up-container">
-            <form id="signUpForm" onsubmit="return validateSignUp()">
+            <form action="signin.php" method="POST" >
                 <h2>Create New Account</h2>
-                <input type="text" id="Username" placeholder="Username">
+                <input name="phone" type="text" id="phone" placeholder="phone">
                 <br><br>
-                <input type="email" id="Email" placeholder="Email">
+                <input name="name"  type="text" id="name" placeholder="name">
                 <br><br>
-                <input type="password" id="Password" placeholder="Password">
+                <input name="email" type="email" id="Email" placeholder="Email">
                 <br><br>
-                <button type="submit">Sign Up</button>
+                <input name="residence"  type="text" id="residence" placeholder="residence">
+                <br><br>
+                <input name="password"  type="password" id="Password" placeholder="Password">
+                <br><br>
+                <!-- <button  type="submit">Sign Up</button> -->
+                <input name="submit" type="submit" value="sign up">
                 <br><br>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form id="signInForm" onsubmit="return validateSignIn()">
                 <h2>Sign in</h2>
+                <br><br>
+                <input type="name" id="signInname" placeholder="name">
                 <br><br>
                 <input type="email" id="signInEmail" placeholder="Email">
                 <br><br>
