@@ -9,12 +9,11 @@
 </head>
 
 <body>
-    
+    <image src="images/burjkhalifa.jpg ">
     <div class="banner">
-    </ul>
-      
-    </div>
-    <div class="dropdown">
+      <div class="content-container">
+          
+     <div class="dropdown">
         <button>ABOUT</button>
         <element class="content">
     <div class="content">
@@ -26,7 +25,7 @@
    <a href="safety.html">Safety</a>
    <a href="interior.html">Interior</a> 
 </div>
-</div>
+
 
     <h1>The Best company to construct your dream house.</h1>
     <!--brief explanation about the company-->
@@ -45,18 +44,21 @@
         <li>and many others</li>
     </ul>
 
-    <h3>Materials used during construction.</h3>
+<h3>Materials used during construction.</h3>
+<ul>
     <li>cement</li>
     <li>steel bars</li>
     <li>stones</li>
     <li>water</li>
     <li>loam soil</li>
     <li>ballast</li>
+</ul>
 
     <p>Mjengo company limited is the best company to consult and hire if you want to have a successfully constructed building.<br>This is because we use the best materials to ensure quality of the building is high.</p>
     <div>
         <button onclick="document.location='contacts.html'"  type="button">company details</button>
-          </div>
+    </div>
+</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <div class="footer">

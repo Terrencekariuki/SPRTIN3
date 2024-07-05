@@ -23,60 +23,48 @@
    <!--table of the offices and managers incharge in kenya-->
    <p>Below is a table of the branches and their managers names</p>
    <table border="2" style="background-color:rgb(87, 87, 105)">
+           <?php
+                    include_once("dbconnect.php");
+                     $sql = "SELECT * FROM `companydetails`";
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                        // echo "id: " . $row["name"]. " " . $row["phone"]. " " . $row["clients_residence"]. "<br>";
+                    
+   ?>
+   
     <tr>
-        <th width="150">Nairobi</th>
-        <th width="150">Kisumu</th>
-        <th width="150">Mombasa</th>
-        <th width="150">Nakuru</th>
-        <th width="150">Eldoret</th>
-        <th width="150">Garissa</th>
-        <th width="150">Nyeri</th>
+        <th width="150"><?php print $row["clients_residence"] ?></th>
+        <td><?php print $row["name"]?></td>
+        <td><?php print $row["phone"]?></td>
     </tr>
+    <!-- </tr>
         <tr align="center">
-            <td>Mr sylvester </td>
-            <td b>Mr Otieno</td>
-            <td>Miss Amina</td>
-            <td>Miss Wangui</td>
-            <td>Mr Kiplagat</td>
-            <td>Mr Hassan</td>
-            <td>Miss Njeri</td>
+            <td><?php print $row["name"]?></td>
+            <
         </tr>
         <tr align="center">
-            <td>0112345656 </td>
-            <td>0789983454</td>
-            <td>0111456789</td>
-            <td>0117833939</td>
-            <td>0723478500</td>
-            <td>0111155666</td>
-            <td>0777222456</td>
-        </tr>
+            <td><?php print $row["phone"]?></td>
+           
+    </tr> -->
+   
+
+   <?php
+            }
+        }
+        else {
+            echo "0 results";
+        }
+        $conn->close();
+   ?>
    </table>
 
    <!--table of the offices and managers incharge in kenya-->
 
-   <h3>Locations of our offices outside Kenya</h3>
-   <table border="2" style="background-color:rgb(87, 87, 105)">
-    <tr>
-        <th width="150">Dodoma</th>
-        <th width="150">Kampala</th>
-        <th width="150">Adis Ababa</th>
-        <th width="150">Kigali</th>
-        </tr>
-        <tr align="center">
-            <td>Mr Kanzu </td>
-            <td>Mr Kansisi</td>
-            <td>Miss Bashy</td>
-            <td>Miss Pierre</td>
-            </tr>
-            <tr align="center">
-                <td>022347890 </td>
-                <td>092783344</td>
-                <td>081526747</td>
-                <td>057789878</td>
-                </tr>
-            
-        </table>
-        <br>
+   <br>
+   <br>
     </div>
         <div>
             <button onclick="document.location='loans.html'"  type="button">Loans and Mortgages</button>
