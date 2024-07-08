@@ -2,29 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
     <title>MJENGO CONSTRUCTION COMPANY</title>
-    <link rel ="stylesheet" href="/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="CSS/style.css">
 </head>
-
-<body>
-    <image src="images/burjkhalifa.jpg ">
+<body> 
     <div class="banner">
-      <div class="content-container">
-          
-     <div class="dropdown">
-        <button>ABOUT</button>
-        <element class="content">
-    <div class="content">
-   <a href="index.html">Home</a> 
-   <a href="contacts.html">Contacts</a>
-   <a href="suppliers.html">Supplies</a> 
-   <a href="loans.html">Loans</a>
-   <a href="transport.html">Transport</a>
-   <a href="safety.html">Safety</a>
-   <a href="interior.html">Interior</a> 
-</div>
+        <div class="content-container">
+            <image  src="images/burjkhalifa.jpg " height="100">
+    <ul>
+   <a href="index.php">Home</a>
+   <a href="contacts.php">Contacts</a>
+   <a href="suppliers.php">Supplies</a> 
+   <a href="loans.php">Loans</a>
+   <a href="transport.php">Transport</a>
+   <a href="safety.php">Safety</a>
+   <a href="interior.php">Interior</a>
+    <a href="signin.php">sign in </a>
 
 
     <h1>The Best company to construct your dream house.</h1>

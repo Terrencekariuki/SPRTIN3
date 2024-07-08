@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
     <title>MJENGO CONSTRUCTION COMPANY</title>
-    <link rel ="stylesheet" href="/style.css">
+    <link rel ="stylesheet" href="style.css">
+    <image  src="images/burjkhalifa.jpg " height="100">
 </head>
 <body>
     
@@ -14,7 +16,7 @@
           </div>
    
     <!--company network-->
-    <div class="content6">
+
    <P>Mjengo construction company is a well know company for its superb constructions all over the east african region.because of this, we have offices in 5 countries in east africa and we are looking forward to openning more in the near future to expand our business</P> 
    <p>We have offices in kenya,uganda,tanzania,ethiopia and rwanda.Since we are a kenyan company we have many offices in kenya and provide quality services to our customers </p>
    
