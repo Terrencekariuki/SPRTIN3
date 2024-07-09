@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
     <title>MJENGO CONSTRUCTION COMPANY</title>
     <link rel ="stylesheet" href="/style.css">
-    </head>
+    <image  src="images/burjkhalifa.jpg " height="100">    
+</head>
         <body>
              <h1>SUPPLIERS OF PRODUCTS </h1>
              <hr>

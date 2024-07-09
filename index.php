@@ -7,9 +7,7 @@
     <link rel ="stylesheet" href="CSS/style.css">
 </head>
 <body> 
-    <div class="background">
-    <image  src="images/effel.webp">
-</div>
+   
     <div class="banner">
         <div class="content-container">
             <image  src="images/burjkhalifa.jpg " height="100">

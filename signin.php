@@ -29,7 +29,7 @@ if(isset($_POST["submit"])){
         $conn->close();
     ?>
     <div class="container">
-    <image  src="images/effel.webp " >
+       
         <div class="form-container sign-up-container">
             <form action="signin.php" method="POST" >
                 <h2>Create New Account</h2>
@@ -63,5 +63,6 @@ if(isset($_POST["submit"])){
         </div>
     </div>
     <script src="script.js"></script>
+    
 </body>
 </html>
