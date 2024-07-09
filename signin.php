@@ -6,7 +6,7 @@
     <title>Sign In and Sign Up</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
 
     <?php 
         include_once("dbconnect.php");

@@ -5,7 +5,7 @@
         <title>MJENGO CONSTRUCTION COMPANY</title>
         <link rel ="stylesheet" href="/style.css">
         <image  src="images/burjkhalifa.jpg " height="100">
-        <body> 
+        <body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
            <h1>INTERIOR DESIGN AND WARRANTY</h1>
            <hr>
            <div class="content1">

@@ -6,7 +6,7 @@
         <link rel ="stylesheet" href="/style.css">
         <image  src="images/burjkhalifa.jpg " height="100">
     </head>
-        <body>
+    <body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
            
         <h1>LOANS AND MORTGAGES ON PROJECTS</h1>
         <hr>

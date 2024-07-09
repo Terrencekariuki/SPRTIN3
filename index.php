@@ -6,7 +6,7 @@
     <title>MJENGO CONSTRUCTION COMPANY</title>
     <link rel ="stylesheet" href="CSS/style.css">
 </head>
-<body> 
+<body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;"> 
    
     <div class="banner">
         <div class="content-container">
