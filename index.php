@@ -7,17 +7,23 @@
     <link rel ="stylesheet" href="CSS/style.css">
 </head>
 <body> 
+    <div class="background">
+    <image  src="images/effel.webp">
+</div>
     <div class="banner">
         <div class="content-container">
             <image  src="images/burjkhalifa.jpg " height="100">
-    <ul>
-   <a href="index.php">Home</a>
-   <a href="contacts.php">Contacts</a>
-   <a href="suppliers.php">Supplies</a> 
-   <a href="loans.php">Loans</a>
-   <a href="transport.php">Transport</a>
-   <a href="safety.php">Safety</a>
-   <a href="interior.php">Interior</a>
+                <!--background image  -->
+            
+            
+            <ul>
+   <a href="index.html">Home</a>
+   <a href="contacts.html">Contacts</a>
+   <a href="suppliers.html">Supplies</a> 
+   <a href="loans.html">Loans</a>
+   <a href="transport.html">Transport</a>
+   <a href="safety.html">Safety</a>
+   <a href="interior.html">Interior</a>
     <a href="signin.php">sign in </a>
 
 
@@ -54,7 +60,7 @@
     </div>
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 <div class="footer">
     <footer>
     <hr>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <?php 
         include_once("dbconnect.php");
 if(isset($_POST["submit"])){
@@ -28,6 +29,7 @@ if(isset($_POST["submit"])){
         $conn->close();
     ?>
     <div class="container">
+    <image  src="images/effel.webp " >
         <div class="form-container sign-up-container">
             <form action="signin.php" method="POST" >
                 <h2>Create New Account</h2>
