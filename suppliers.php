@@ -11,7 +11,7 @@
              <hr>
 <br>
              <div>
-                <button onclick="document.location='loans.html'"  type="button">Loans and Mortgages</button>
+                <button onclick="document.location='loans.php'"  type="button">Loans and Mortgages</button>
                       </div>
             <div class="content3">
              <!--BRIEF HISTORY OF WHERE SUPPLIES-->
@@ -28,7 +28,7 @@
     
           
            <div>
-            <button onclick="document.location='transport.html'"  type="button">transport and workers</button>
+            <button onclick="document.location='transport.php'"  type="button">transport and workers</button>
               </div>
     <footer>
         <hr>

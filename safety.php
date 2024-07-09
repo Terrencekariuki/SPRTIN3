@@ -11,7 +11,7 @@
     <h1>SAFETY PRECAUTIONS</h1>
     <hr>
     <div>
-        <button onclick="document.location='transport.html'"  type="button">Transport and Workers</button>
+        <button onclick="document.location='transport.php'"  type="button">Transport and Workers</button>
               </div>
     <div class="content4">
     <p>At a construction site,there are various safety measures that need to be put in place.This measures are put in place and need to be implemented inorder to avoid fatal accidents and to ensure the operations run smoothly on site.</p>
@@ -25,7 +25,7 @@
     <li> Harnesses and lanyards: Worn by workers at heights, attached to anchor points.</li>
 </div>
     <div>
-        <button onclick="document.location='interior.html'"  type="button">interior design and warranty</button>
+        <button onclick="document.location='interior.php'"  type="button">interior design and warranty</button>
               </div>
     <footer>
         <hr>

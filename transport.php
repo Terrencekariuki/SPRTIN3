@@ -11,7 +11,7 @@
     <h1>TRANSPORT AND WORKERS</h1>
     <hr>
     <div>
-        <button onclick="document.location='suppliers.html'"  type="button">Suppliers of products</button>
+        <button onclick="document.location='suppliers.php'"  type="button">Suppliers of products</button>
               </div>
 
             <p >Construction equipment does a great job of doing everything we need it to do without the help of any other equipment. When it comes to digging holes, grading land, moving massive material and prepping the earth for a giant project, they are the lone wolves.</p>
@@ -32,7 +32,7 @@
     <p>lets proceed and check out the safety precautions observed on site.</p>
 </div>
     <div>
-        <button onclick="document.location='safety.html'"  type="button">Safety Precautions</button>
+        <button onclick="document.location='safety.php'"  type="button">Safety Precautions</button>
               </div>
     <footer>
         <hr>

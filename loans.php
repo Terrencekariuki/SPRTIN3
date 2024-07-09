@@ -11,7 +11,7 @@
         <h1>LOANS AND MORTGAGES ON PROJECTS</h1>
         <hr>
         <div>
-            <button onclick="document.location='contacts.html'"  type="button">Offices and contacts</button>
+            <button onclick="document.location='contacts.php'"  type="button">Offices and contacts</button>
                   </div>
         <!--information about how to acquire loans-->
         <div class="content2">
@@ -27,7 +27,7 @@
     <img src= "images/myhouse.jpeg"
     height="500">
     <div>
-        <button onclick="document.location='suppliers.html'"  type="button">supplies and enquiry</button>
+        <button onclick="document.location='suppliers.php'"  type="button">supplies and enquiry</button>
           </div>
 <footer>
     <hr>

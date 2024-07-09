@@ -8,7 +8,7 @@
         <body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
            <h1>INTERIOR DESIGN AND WARRANTY</h1>
            <hr>
-           <div class="content1">
+           
            <p>Our company is in partnership with companies such as oppein interiors who make well designed and modern wardrobes , cabinets ,gypsum ceilings , kitchen island and bathrooms.<br>Some of their products are imported and made with good materials and they also come with warranties incase the product does not live to serve its purpose.</p>
           
             <p>For inquiry and negotiations we will requre you to input your details which will enable us to reach you.</p>
@@ -26,7 +26,7 @@
            <p>Kindly input the following details:</p>
 <br>
      
-            <form action="pageseven.php"method="POST">
+            <form action="interior.php"method="POST">
             <label for="email address">Email address</label>
             <input type="text" id="email address" placeholder="mjengo@xxx.com" minlength="10" maxlenth="20"required >
 <br><br>  
@@ -47,7 +47,7 @@
         </form>
 <br>
         <div>
-            <button onclick="document.location='safety.html'"  type="button">Safety precautions</button>
+            <button onclick="document.location='safety.php'"  type="button">Safety precautions</button>
                   </div>
         <footer>
             <hr>

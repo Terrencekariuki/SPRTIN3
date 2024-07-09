@@ -12,7 +12,7 @@
     <h1>OUR OFFICES AND CONTACTS</h1>
     <hr>
     <div>
-        <button onclick="document.location='index.html'"  type="button">Introduction</button>
+        <button onclick="document.location='index.php'"  type="button">Introduction</button>
           </div>
    
     <!--company network-->
@@ -69,7 +69,7 @@
    <br>
     </div>
         <div>
-            <button onclick="document.location='loans.html'"  type="button">Loans and Mortgages</button>
+            <button onclick="document.location='loans.php'"  type="button">Loans and Mortgages</button>
               </div>
     <footer>
         <hr>

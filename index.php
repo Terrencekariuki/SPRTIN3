@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial scale=1.0">
     <title>MJENGO CONSTRUCTION COMPANY</title>
-    <link rel ="stylesheet" href="CSS/style.css">
+    
 </head>
 <body style="background-image: url('images/effel.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;"> 
    
@@ -15,13 +15,13 @@
             
             
             <ul>
-   <a href="index.html">Home</a>
-   <a href="contacts.html">Contacts</a>
-   <a href="suppliers.html">Supplies</a> 
-   <a href="loans.html">Loans</a>
-   <a href="transport.html">Transport</a>
-   <a href="safety.html">Safety</a>
-   <a href="interior.html">Interior</a>
+   <a href="index.php">Home</a>
+   <a href="contacts.php">Contacts</a>
+   <a href="suppliers.php">Supplies</a> 
+   <a href="loans.php">Loans</a>
+   <a href="transport.php">Transport</a>
+   <a href="safety.php">Safety</a>
+   <a href="interior.php">Interior</a>
     <a href="signin.php">sign in </a>
 
 
@@ -54,7 +54,7 @@
 
     <p>Mjengo company limited is the best company to consult and hire if you want to have a successfully constructed building.<br>This is because we use the best materials to ensure quality of the building is high.</p>
     <div>
-        <button onclick="document.location='contacts.html'"  type="button">company details</button>
+        <button onclick="document.location='contacts.php'"  type="button">company details</button>
     </div>
 </div>
 </div>
